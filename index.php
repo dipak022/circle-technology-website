@@ -255,7 +255,7 @@ require_once("lang/lang." . $lang . ".php");
                                 <img src="img/logic.png" style="width:100%;height:400px;" alt="Projects image" class="img-fluid">
                                 <div class="project-detail">
                                     <div class="project-title">
-                                        <h6><a href="#"><?php echo $language['logical_erp']; ?></a></h6>
+                                        <h6><a href="our-products.php?lang=<?php echo $lang ?>&type=logical_erp"><?php echo $language['logical_erp']; ?></a></h6>
                                     </div>
                                     <a class="project-detail-btn" href="our-products.php?lang=<?php echo $lang ?>&type=logical_erp"><i class="fa fa-arrow-right"></i></a>
                         </div>
@@ -268,7 +268,7 @@ require_once("lang/lang." . $lang . ".php");
                                 <img src="img/telimadicine.jpg" style="width:100%;height:400px;" alt="Projects image" class="img-fluid">
                                 <div class="project-detail">
                                     <div class="project-title">
-                                        <h6><a href="#"><?php echo $language['telemedicine_apps']; ?></a></h6>
+                                        <h6><a href="our-products.php?lang=<?php echo $lang ?>&type=telemedicine_apps"><?php echo $language['telemedicine_apps']; ?></a></h6>
                                     </div>
                                     <a class="project-detail-btn" href="our-products.php?lang=<?php echo $lang ?>&type=telemedicine_apps"><i class="fa fa-arrow-right"></i></a>
                                 </div>
@@ -281,7 +281,7 @@ require_once("lang/lang." . $lang . ".php");
                                 <img src="img/pharma.jpg" style="width:100%;height:400px;" alt="Projects image" class="img-fluid">
                                 <div class="project-detail">
                                     <div class="project-title">
-                                        <h6><a href="#"><?php echo $language['pharma_erp']; ?></a></h6>
+                                        <h6><a href="our-products.php?lang=<?php echo $lang ?>&type=pharma_erp"><?php echo $language['pharma_erp']; ?></a></h6>
                                     </div>
                                     <a class="project-detail-btn" href="our-products.php?lang=<?php echo $lang ?>&type=pharma_erp"><i class="fa fa-arrow-right"></i></a>
                                 </div>
@@ -294,7 +294,7 @@ require_once("lang/lang." . $lang . ".php");
                                 <img src="img/ngo.jpg" style="width:100%;height:400px;" alt="Projects image" class="img-fluid">
                                 <div class="project-detail">
                                     <div class="project-title">
-                                        <h6><a href="#"><?php echo $language['ngo_erp']; ?></a></h6>
+                                        <h6><a href="our-products.php?lang=<?php echo $lang ?>&type=ngo_erp"><?php echo $language['ngo_erp']; ?></a></h6>
                                     </div>
                                     <a class="project-detail-btn" href="our-products.php?lang=<?php echo $lang ?>&type=ngo_erp"><i class="fa fa-arrow-right"></i></a>
                                 </div>
@@ -307,7 +307,7 @@ require_once("lang/lang." . $lang . ".php");
                                 <img src="img/hospital.jpg" style="width:100%;height:400px;" alt="Projects image" class="img-fluid">
                                 <div class="project-detail">
                                     <div class="project-title">
-                                        <h6><a href="#"><?php echo $language['hospital_pro']; ?></a></h6>
+                                        <h6><a href="our-products.php?lang=<?php echo $lang ?>&type=hospital_pro"><?php echo $language['hospital_pro']; ?></a></h6>
                                     </div>
                                     <a class="project-detail-btn" href="our-products.php?lang=<?php echo $lang ?>&type=hospital_pro"><i class="fa fa-arrow-right"></i></a>
                                 </div>
@@ -320,7 +320,7 @@ require_once("lang/lang." . $lang . ".php");
                                 <img src="img/Diagnostic .jpg" style="width:100%;height:400px;" alt="Projects image" class="img-fluid">
                                 <div class="project-detail">
                                     <div class="project-title">
-                                        <h6><a href="#"><?php echo $language['diagnostic_pro']; ?></a></h6>
+                                        <h6><a href="our-products.php?lang=<?php echo $lang ?>&type=diagnostic_pro"><?php echo $language['diagnostic_pro']; ?></a></h6>
                                     </div>
                                     <a class="project-detail-btn" href="our-products.php?lang=<?php echo $lang ?>&type=diagnostic_pro"><i class="fa fa-arrow-right"></i></a>
                                 </div>
@@ -691,8 +691,89 @@ require_once("lang/lang." . $lang . ".php");
             </section>
             <!--// Pricing End //-->
 
-            <!--// Latest Blog Start //-->
-            <section class="section bg-grey pb-minus-70" id="latest-blog">
+            
+
+             <!--// Our Client Start //-->
+             <section class="section bg-grey pb-minus-70" id="latest-blog">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-7 col-md-10">
+                            <div class="section-heading">
+                                <h4><?php echo $language['our_client']; ?></h4>
+                                <p>
+                                   
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-carousel owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="blog-item">
+                                <div class="blog-img">
+                                    <a href="#">
+                                        <img src="img/bsmmu1.png" alt="Blog image" class="img-fluid"  style="width: 100% !important;height: 100px;">
+                                    </a>
+                                </div>
+                            
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="blog-item">
+                                <div class="blog-img">
+                                    <a href="#">
+                                        <img src="img/save.png" alt="Blog image" class="img-fluid"  style="width: 100% !important;height: 100px;">
+                                    </a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="blog-item">
+                                <div class="blog-img">
+                                    <a href="#">
+                                        <img src="img/globe2.png" alt="Blog image" class="img-fluid"  style="width: 100% !important;height: 100px;">
+                                    </a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="blog-item">
+                                <div class="blog-img">
+                                    <a href="#">
+                                        <img src="img/astra.jpg" alt="Blog image" class="img-fluid"  style="width: 100% !important;height: 100px;">
+                                    </a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="blog-item">
+                                <div class="blog-img">
+                                    <a href="#">
+                                        <img src="img/dam.png" alt="Blog image" class="img-fluid"  style="width: 100% !important;height: 100px;">
+                                    </a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="blog-item">
+                                <div class="blog-img">
+                                    <a href="#">
+                                        <img src="img/mst4.png" alt="Blog image" class="img-fluid"  style="width: 100% !important;height: 100px;">
+                                    </a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--// Our client End //-->
+
+             <!--// Latest Blog Start //-->
+             <section class="section bg-grey pb-minus-70" id="latest-blog">
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-lg-7 col-md-10">
@@ -794,6 +875,59 @@ require_once("lang/lang." . $lang . ".php");
                 </div>
             </section>
             <!--// Latest Blog End //-->
+
+                <!--// Our Potential Start //-->
+                <section class="section pb-minus-70" id="counters"> 
+                <div class="container">
+                   <div class="row">
+                        <div class="col-md-6 col-lg-3">
+                            <div class="counter-item">
+                                <div class="counter-icon">
+                                    <span class="flaticon-020-meeting"></span>
+                                </div>
+                                <div class="counter-body">
+                                    <h6>Happy Customer</h6>
+                                    <span class="counter">2000</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                            <div class="counter-item">
+                                <div class="counter-icon">
+                                    <span class="flaticon-032-coffee-cup"></span>
+                                </div>
+                                <div class="counter-body">
+                                    <h6>Sell Products</h6>
+                                    <span class="counter">1500</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                            <div class="counter-item">
+                                <div class="counter-icon">
+                                    <span class="flaticon-005-trophy"></span>
+                                </div>
+                                <div class="counter-body">
+                                    <h6>Awards Won</h6>
+                                    <span class="counter">2500</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                            <div class="counter-item">
+                                <div class="counter-icon">
+                                    <span class="flaticon-030-deal"></span>
+                                </div>
+                                <div class="counter-body">
+                                    <h6>Recieved Job</h6>
+                                    <span class="counter">5000</span>
+                                </div>
+                            </div>
+                        </div>
+                   </div>
+                </div>
+            </section>
+            <!--// Our Potential End //-->
 
             <?php include('footer.php');?>
 

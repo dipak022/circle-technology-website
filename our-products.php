@@ -182,6 +182,84 @@ else{
                 <?php }?>
             </section>
             <!--// About End //-->
+             <!--// Projects Detail Start //-->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                           
+                          
+                            <div class="comment-block-mt">
+                                <h5 class="inner-header-title">Comments <span>(02)</span></h5>  
+                                <div class="comments-wrap">
+                                    <div class="comments-item-wrap">
+                                        <div class="comments-item">
+                                            <img class="img-fluid" src="img/blog/comment-img-1.jpg" alt="Comment image">
+                                            <div class="media-body">
+                                                <div class="comment-header">
+                                                    <h6>William Rouse</h6>
+                                                    <a href="#" class="comments-reply-btn"><i class="fa fa-reply"></i>Reply</a>
+                                                </div>
+                                                <p>
+                                                    It is a long established fact that a reader will be 
+                                                    distracted by the readable content of a page when looking at its layout.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="comments-item sub-comment">
+                                            <img class="img-fluid" src="img/blog/comment-img-3.jpg" alt="Comment image">
+                                            <div class="comment-body">
+                                                <div class="comment-header">
+                                                    <h6>Andrew Towar</h6>
+                                                    <a href="#" class="comments-reply-btn"><i class="fa fa-reply"></i>Reply</a>
+                                                </div>
+                                                <p>
+                                                    It is a long established fact that a reader will be 
+                                                    distracted by the readable content of a page when looking at its layout.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="comments-item-wrap">
+                                        <div class="comments-item">
+                                            <img class="img-fluid" src="img/blog/comment-img-2.jpg" alt="client-img">
+                                            <div class="media-body">
+                                                <div class="comment-header">
+                                                    <h6>Daniel Gonzalez</h6>
+                                                    <a href="#" class="comments-reply-btn"><i class="fa fa-reply"></i>Reply</a>
+                                                </div>
+                                                <p>
+                                                    It is a long established fact that a reader will be 
+                                                    distracted by the readable content of a page when looking at its layout.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="leave-comment-wrapper comment-block-mt">
+                                <h5 class="inner-header-title">Leave A Comment</h5>
+                                <form action="https://aipthemes.com/bizzcorpy/portfolio-details.html" method="post">
+                                    <div class="row">
+                                        <div class="comment-form-group col-md-12">
+                                            <input type="text" class="comment-form-control" placeholder="Your Name *" required="">
+                                            <span class="fa fa-user"></span>
+                                        </div>
+                                        <div class="comment-form-group col-md-12">
+                                            <textarea class="comment-form-control text-area" name="message" cols="30" rows="5" placeholder="Your Comment *"></textarea>
+                                            <span class="fa fa-envelope-open"></span>
+                                        </div>
+                                        <div class="comment-form-group mb-0 col-md-12">
+                                            <button type="submit" class="primary-outline-btn">Send Message</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                                </br></br>
+            <!--// Projects Detail End //-->
 
 
             <?php include('footer.php');?>

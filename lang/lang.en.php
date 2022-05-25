@@ -195,6 +195,7 @@ $language['page_error'] = '404 page';
 $language['documentation'] = 'Documentation';
 $language['blog_single'] = 'Blog single';
 $language['support_policy'] = 'Support policy';
+$language['our_client'] = 'Our Clients';
 
 //contact
 $language['contact_name'] = 'Your Name';
